@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="conv.js"></script> -->
+    
+        
+</head>
+<body>
+    
+    <nav>
+        <div class="header">
+            Finance <span>Tracker</span>
+        </div>
+        <div class="nav_items">
+            <ul>
+                <li ><a href="index.html">Strona główna</a></li>
+                <li ><a href="tracker.html">Tracker</a></li>
+                <li><a href="wymiana.html" id="mark" class="mark" href="index.html">Wymiana</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <main>
+        <h1>Kalkulator Walutowy!</h1>
+        <form class="currency_form">
+            <label >
+                Przelicz z: 
+                <select id="from">
+                    
+                </select>
+            </label>  
+            <label >
+                Przelicz na: 
+                <select id="to">
+                    
+                </select>
+            </label>
+            <label>Kwota:
+                 <input type="text" id="curr_val" autocomplete="off" placeholder="Wpisz kwotę...">
+                 <input type="submit" value="Przelicz">
+            </label>
+            <label id="exchanged"></label>
+            
+            
+        </form>
+        
+    
+    </main>
+    
+
+    <script src="conv.js"></script>
+    <script src="nav.js"></script>
+    <script src="burger.js"></script>
+</body>
+</html>
