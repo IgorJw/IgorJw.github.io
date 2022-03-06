@@ -7,7 +7,7 @@ $(document).ready(function () {
     $.ajax({
       async: true,
       crossDomain: true,
-      url: "https://cors-anywhere.herokuapp.com/http://api.exchangeratesapi.io/v1/latest?access_key=de9c4c0bad8ce0708badffa2be14e1c2", //pass your tenant
+      url: "https://api.exchangeratesapi.io/v1/latest?access_key=de9c4c0bad8ce0708badffa2be14e1c2", //pass your tenant
       method: "POST",
       headers: {
         "content-type": "application/x-www-form-urlencoded",
